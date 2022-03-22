@@ -1,14 +1,14 @@
 import React from 'react'
 import { Button, Container, Form, FormControl, Nav, Navbar, NavDropdown, Offcanvas } from 'react-bootstrap'
 
-export default function navbar() {
+export default function Navbars() {
     return (
         <>
-            <Navbar bg="light" expand={false}>
+            <Navbar className='navbars' bg="light" expand={false}>
                 <Container fluid>
 
                     <Navbar.Toggle aria-controls="offcanvasNavbar" /> 
-                    <Navbar.Brand href="#">Navbar Offcanvas </Navbar.Brand>  
+                    <Navbar.Brand href="#">Lgo </Navbar.Brand>  
                     <Navbar id="responsive-navbar-nav">
                         <Nav className="me-auto">
                             <Nav.Link href="#features">Features</Nav.Link>
