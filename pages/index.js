@@ -4,12 +4,13 @@ import Image from 'next/image'
 import styles from '../styles/Home.module.css'
 import AppLayout from '../components/AppLayout'
 import Bannner from '../components/Bannner'
+import { Container } from 'react-bootstrap'
 
  
 const Index = ({ }) => {
   return (
-    <AppLayout title="App" > 
-      <Bannner></Bannner>
+    <AppLayout title="App" >  
+        <Bannner></Bannner> 
     </AppLayout>
   ); 
 };
