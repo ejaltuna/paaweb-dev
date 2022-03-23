@@ -8,14 +8,10 @@ import Bannner from '../components/Bannner'
  
 const Index = ({ }) => {
   return (
-    <AppLayout title="App" >
-
-    <Bannner></Bannner>
-
+    <AppLayout title="App" > 
+      <Bannner></Bannner>
     </AppLayout>
-  );
-  
-
+  ); 
 };
 
 

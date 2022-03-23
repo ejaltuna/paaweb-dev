@@ -30,7 +30,7 @@ function AppLayout({ children, title, description }) {
                 </a>
             </footer>
         </div>
-    )
+    ) 
 }
 
 AppLayout.defaultProps = {

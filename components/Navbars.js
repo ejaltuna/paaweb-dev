@@ -1,20 +1,19 @@
-import React from 'react'
+import React from 'react'  
 import { Button, Container, Form, FormControl, Nav, Navbar, NavDropdown, Offcanvas } from 'react-bootstrap'
+
 
 export default function Navbars() {
     return (
         <>
             <Navbar className='navbars' bg="light" expand={false}>
-                <Container fluid>
-
+                <Container fluid> 
                     <Navbar.Toggle aria-controls="offcanvasNavbar" /> 
                     <Navbar.Brand href="#">Lgo </Navbar.Brand>  
                     <Navbar id="responsive-navbar-nav">
                         <Nav className="me-auto">
                             <Nav.Link href="#features">Features</Nav.Link>
                             <Nav.Link href="#pricing">Pricing</Nav.Link> 
-                        </Nav>
-
+                        </Nav> 
                     </Navbar>
                     <Navbar.Offcanvas
                         id="offcanvasNavbar"
